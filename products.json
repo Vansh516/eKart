@@ -1,0 +1,222 @@
+[
+  {
+    "image": "https://example.com/images/redmi12.jpg",
+    "title": "Redmi 12 5G",
+    "description": "budget friendly 5g smartphone with 6.6 inch display and 5000mah battery",
+    "category": "electronics",
+    "brand": "xiaomi",
+    "price": 12999,
+    "salePrice": 10999,
+    "totalStock": 150,
+    "averageReview": 4.3
+  },
+  {
+    "image": "https://example.com/images/iphone14.jpg",
+    "title": "iPhone 14",
+    "description": "apple iphone 14 smartphone with 6.1 inch display and a15 bionic chip",
+    "category": "electronics",
+    "brand": "apple",
+    "price": 79999,
+    "salePrice": 74999,
+    "totalStock": 60,
+    "averageReview": 4.7
+  },
+  {
+    "image": "https://example.com/images/hp-pavilion.jpg",
+    "title": "HP Pavilion 15",
+    "description": "hp pavilion 15 laptop with ryzen 5 processor 8gb ram and 512gb ssd",
+    "category": "electronics",
+    "brand": "hp",
+    "price": 59999,
+    "salePrice": 54999,
+    "totalStock": 80,
+    "averageReview": 4.5
+  },
+  {
+    "image": "https://example.com/images/dell-inspiron.jpg",
+    "title": "Dell Inspiron 14",
+    "description": "compact laptop with intel i5 processor 8gb ram and 256gb ssd",
+    "category": "electronics",
+    "brand": "dell",
+    "price": 45999,
+    "salePrice": 42999,
+    "totalStock": 90,
+    "averageReview": 4.2
+  },
+  {
+    "image": "https://example.com/images/nike-air.jpg",
+    "title": "Nike Air Zoom",
+    "description": "lightweight running shoes for men with superior cushioning",
+    "category": "fashion",
+    "brand": "nike",
+    "price": 6999,
+    "salePrice": 6499,
+    "totalStock": 200,
+    "averageReview": 4.2
+  },
+  {
+    "image": "https://example.com/images/puma-tshirt.jpg",
+    "title": "Puma Cotton T-Shirt",
+    "description": "comfortable half sleeve t shirt made of 100 percent cotton",
+    "category": "fashion",
+    "brand": "puma",
+    "price": 1299,
+    "salePrice": 999,
+    "totalStock": 500,
+    "averageReview": 4.0
+  },
+  {
+    "image": "https://example.com/images/puma-shoes.jpg",
+    "title": "Puma Velocity Nitro 2",
+    "description": "premium running shoes with responsive cushioning and lightweight design",
+    "category": "fashion",
+    "brand": "puma",
+    "price": 8999,
+    "salePrice": 7999,
+    "totalStock": 250,
+    "averageReview": 4.3
+  },
+  {
+    "image": "https://example.com/images/adidas-hoodie.jpg",
+    "title": "Adidas Sports Hoodie",
+    "description": "warm hoodie for winter sports made with breathable fabric",
+    "category": "fashion",
+    "brand": "adidas",
+    "price": 2999,
+    "salePrice": 2499,
+    "totalStock": 350,
+    "averageReview": 4.1
+  },
+  {
+    "image": "https://example.com/images/levi-jeans.jpg",
+    "title": "Levi's Slim Fit Jeans",
+    "description": "slim fit denim jeans with stretch comfort for casual wear",
+    "category": "fashion",
+    "brand": "levis",
+    "price": 2499,
+    "salePrice": 1999,
+    "totalStock": 400,
+    "averageReview": 4.2
+  },
+  {
+    "image": "https://example.com/images/sony-headphones.jpg",
+    "title": "Sony WH-1000XM5",
+    "description": "noise cancelling wireless headphones with 30 hours battery life",
+    "category": "electronics",
+    "brand": "sony",
+    "price": 29999,
+    "salePrice": 26999,
+    "totalStock": 70,
+    "averageReview": 4.8
+  },
+  {
+    "image": "https://example.com/images/boat-earbuds.jpg",
+    "title": "boAt Airdopes 441",
+    "description": "true wireless earbuds with ipx7 rating and touch controls",
+    "category": "electronics",
+    "brand": "boat",
+    "price": 2499,
+    "salePrice": 1999,
+    "totalStock": 600,
+    "averageReview": 4.1
+  },
+  {
+    "image": "https://example.com/images/prestige-cooker.jpg",
+    "title": "Prestige Pressure Cooker 5L",
+    "description": "stainless steel 5 litre pressure cooker for indian cooking",
+    "category": "home & kitchen",
+    "brand": "prestige",
+    "price": 2499,
+    "salePrice": 1999,
+    "totalStock": 300,
+    "averageReview": 4.4
+  },
+  {
+    "image": "https://example.com/images/milton-flask.jpg",
+    "title": "Milton Thermosteel Flask",
+    "description": "hot and cold flask with 24 hour insulation capacity",
+    "category": "home & kitchen",
+    "brand": "milton",
+    "price": 1199,
+    "salePrice": 999,
+    "totalStock": 500,
+    "averageReview": 4.2
+  },
+  {
+    "image": "https://example.com/images/bajaj-mixer.jpg",
+    "title": "Bajaj Mixer Grinder",
+    "description": "powerful 750 watt mixer grinder with 3 stainless steel jars",
+    "category": "home & kitchen",
+    "brand": "bajaj",
+    "price": 3499,
+    "salePrice": 2999,
+    "totalStock": 220,
+    "averageReview": 4.3
+  },
+  {
+    "image": "https://example.com/images/lg-fridge.jpg",
+    "title": "LG Double Door Refrigerator",
+    "description": "energy efficient refrigerator with frost free technology",
+    "category": "home appliances",
+    "brand": "lg",
+    "price": 32999,
+    "salePrice": 30999,
+    "totalStock": 60,
+    "averageReview": 4.5
+  },
+  {
+    "image": "https://example.com/images/samsung-tv.jpg",
+    "title": "Samsung 55 Inch Smart TV",
+    "description": "4k ultra hd smart television with hdr10 support",
+    "category": "electronics",
+    "brand": "samsung",
+    "price": 55999,
+    "salePrice": 49999,
+    "totalStock": 50,
+    "averageReview": 4.6
+  },
+  {
+    "image": "https://example.com/images/titan-watch.jpg",
+    "title": "Titan Analog Watch",
+    "description": "stylish analog watch for men with leather strap",
+    "category": "fashion",
+    "brand": "titan",
+    "price": 4999,
+    "salePrice": 3999,
+    "totalStock": 180,
+    "averageReview": 4.4
+  },
+  {
+    "image": "https://example.com/images/wildcraft-bag.jpg",
+    "title": "Wildcraft Laptop Backpack",
+    "description": "durable backpack with 3 compartments suitable for 15.6 inch laptops",
+    "category": "fashion",
+    "brand": "wildcraft",
+    "price": 2499,
+    "salePrice": 1999,
+    "totalStock": 270,
+    "averageReview": 4.1
+  },
+  {
+    "image": "https://example.com/images/parle-biscuits.jpg",
+    "title": "Parle-G Biscuits",
+    "description": "classic glucose biscuits loved across india",
+    "category": "grocery",
+    "brand": "parle",
+    "price": 10,
+    "salePrice": 10,
+    "totalStock": 1000,
+    "averageReview": 4.5
+  },
+  {
+    "image": "https://example.com/images/tata-salt.jpg",
+    "title": "Tata Salt",
+    "description": "iodized salt for healthy living",
+    "category": "grocery",
+    "brand": "tata",
+    "price": 25,
+    "salePrice": 20,
+    "totalStock": 2000,
+    "averageReview": 4.7
+  }
+]
