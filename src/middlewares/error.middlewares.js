@@ -1,22 +1,24 @@
 const error = (err, req, res, next) => {
-  if (err.code === 11000) {
-    err.message = 'Email already in use';
-    err.statusCode = 409;
+
+  let error = { ...err }
+  if (error.code === 11000) {
+    error.message = 'Email already in use';
+    error.statusCode = 409;
   }
 
-  if (err.name === 'CastError') {
-    err.message = 'Invalid Id, please provide correct Id';
-    err.statusCode = 404;
+  if (error.name === 'CasteError') {
+    error.message = 'Invalid Id, please provide correct Id';
+    error.statusCode = 404;
   }
-  //! global error handler
-  err.message = err.message || 'Internal Server Error';
-  err.statusCode = err.statusCode || 500;
+  //! global erroror handler
+  error.message = error.message || 'Internal Server erroror';
+  error.statusCode = error.statusCode || 500;
 
-  res.status(err.statusCode).json({
+  res.status(error.statusCode).json({
     success: false,
-    message: err.message,
+    message: error.message,
     obj: err,
-    errLine: err.stack,
+    errorLine: err.stack,
   });
 };
 

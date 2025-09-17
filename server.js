@@ -10,6 +10,9 @@ const adminProductRoutes = require('./src/routes/admin/product.routes');
 const shopAddressRoutes = require('./src/routes/shop/address.routes');
 const shopProductRoutes = require('./src/routes/shop/product.routes');
 const shopCartRoutes = require('./src/routes/shop/cart.routes');
+const shopOrderRoutes = require("./src/routes/shop/order.routes");
+const adminOrderRoutes = require("./src/routes/admin/order.routes")
+const shopReviewRoutes = require("./src/routes/shop/review.routes")
 
 const { seedAdmin } = require('./src/seed/admin.seed');
 const { authenticate, authorize } = require('./src/middlewares/auth.middleware');
@@ -39,6 +42,9 @@ app.use('/api/admin/products', authenticate, authorize, adminProductRoutes);
 app.use('/api/shop/address', authenticate, shopAddressRoutes);
 app.use('/api/shop/products', shopProductRoutes);
 app.use('/api/shop/carts', authenticate, shopCartRoutes);
+app.use('/api/shop/orders', authenticate, shopOrderRoutes)
+app.use("/api/admin/orders", authenticate, authorize, adminOrderRoutes)
+app.use("/api/shop/reviews", authenticate, shopReviewRoutes)
 
 connectDB();
 

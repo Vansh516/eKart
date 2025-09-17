@@ -35,7 +35,6 @@ const searchProducts = expressAsyncHandler(async (req, res, next) => {
   let { keyword } = req.query;
   const pattern = new RegExp(keyword, 'i');
   console.log(pattern);
-
   let products = await productCollection.find({
     $or: [
       { title: { $regex: pattern } },

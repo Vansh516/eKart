@@ -99,8 +99,14 @@ const deleteProfile = expressAsyncHandler(async (req, res, next) => {
   new ApiResponse(200, true, 'profile deleted', deletedprofile).send(res);
 });
 
+const getCurrentUser = expressAsyncHandler(async (req, res, next) => {
+  new ApiResponse(200, true, 'current user', req.myUser).send(res);
+})
+
+
+// for fronted use
 //TODO:
-const resetPassword = expressAsyncHandler(async (req, res, next) => {});
+const resetPassword = expressAsyncHandler(async (req, res, next) => { });
 
 module.exports = {
   register,
@@ -109,4 +115,5 @@ module.exports = {
   updateProfile,
   deleteProfile,
   updatePassword,
+  getCurrentUser
 };

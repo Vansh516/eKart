@@ -33,6 +33,29 @@ const userSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
+    versionKey: false, // __v
+    toObject: {
+      transform(obj, ret) {
+        ret.id = ret._id
+        delete ret.password,
+          delete ret.__v
+        delete ret._id
+        delete ret.createdAt
+        delete ret.updatedAt
+        return ret
+      },
+    },
+    toJSON: {
+      transform(obj, ret) {
+        ret.id = ret._id
+        delete ret.password,
+          delete ret.__v
+        delete ret._id
+        delete ret.createdAt
+        delete ret.updatedAt
+        return ret
+      },
+    },
   }
 );
 

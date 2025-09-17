@@ -6,6 +6,7 @@ const {
   updateProfile,
   deleteProfile,
   updatePassword,
+  getCurrentUser,
 } = require("../../controllers/user/user.controllers");
 
 const { authenticate } = require("../../middlewares/auth.middleware");
@@ -20,5 +21,7 @@ router.patch("/edit", authenticate, updateProfile);
 
 router.delete("/delete", authenticate, deleteProfile)
 router.patch("/update-password", authenticate, updatePassword)
+
+router.get("/me", authenticate, getCurrentUser)
 
 module.exports = router;
